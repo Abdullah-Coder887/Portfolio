@@ -1,0 +1,232 @@
+/* ==========================================================================
+   ABDULLAH BIN TABASSAM — RESPONSIVE MEDIA QUERIES & BREAKPOINTS
+   Ensuring flawless experience on Desktop, Tablet, Mobile (360px - 1920px)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Large Desktop Screens (1440px and above)
+   -------------------------------------------------------------------------- */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1320px;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    #hero-3d-container {
+        height: 580px;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Laptops & Standard Desktops (992px to 1365px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1365px) {
+    .hero-title {
+        font-size: 3.25rem;
+    }
+
+    #hero-3d-container {
+        height: 480px;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Tablets & Small Laptops (768px to 991px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 991px) {
+    :root {
+        --navbar-height: 70px;
+    }
+
+    .hero-section {
+        padding-top: calc(var(--navbar-height) + 1.5rem);
+        text-align: center;
+    }
+
+    .hero-badge {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-title {
+        font-size: 2.75rem;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-cta-group {
+        justify-content: center;
+    }
+
+    #hero-3d-container {
+        height: 380px;
+        margin-top: 2rem;
+    }
+
+    .section-padding {
+        padding: 5rem 0;
+    }
+
+    .section-title {
+        font-size: 2.1rem;
+    }
+
+    .stat-card {
+        margin-bottom: 1rem;
+    }
+
+    /* Mobile Navbar Styling */
+    .navbar-collapse {
+        background: rgba(10, 15, 23, 0.95);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        padding: 1.5rem;
+        border-radius: 16px;
+        margin-top: 0.75rem;
+        border: 1px solid var(--border-color);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    }
+
+    .nav-link::after {
+        display: none;
+    }
+
+    .nav-link {
+        padding: 0.75rem 0 !important;
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        border: 1px solid var(--border-color);
+        color: var(--text-primary);
+        padding: 0.5rem 0.75rem;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 10px var(--accent-primary);
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Mobile Devices (Up to 767px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    #hero-3d-container {
+        height: 300px;
+    }
+
+    .section-padding {
+        padding: 4rem 0;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
+        gap: 0.75rem;
+    }
+
+    .skill-card {
+        padding: 1rem 0.5rem;
+    }
+
+    .skill-card i {
+        font-size: 1.6rem;
+    }
+
+    .skill-card span {
+        font-size: 0.8rem;
+    }
+
+    .filter-buttons {
+        gap: 0.5rem;
+    }
+
+    .filter-btn {
+        padding: 0.4rem 0.9rem;
+        font-size: 0.8rem;
+    }
+
+    .btn-neon-primary, .btn-neon-secondary, .btn-whatsapp {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .custom-cursor-dot, .custom-cursor-ring {
+        display: none !important;
+    }
+
+    .toast-container-custom {
+        bottom: 1rem;
+        right: 1rem;
+        left: 1rem;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Small Mobile Devices (360px - 480px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.85rem;
+    }
+
+    .hero-badge {
+        font-size: 0.65rem;
+        padding: 0.3rem 0.8rem;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+    }
+
+    .service-title {
+        font-size: 1.2rem;
+    }
+
+    .stat-content h4 {
+        font-size: 0.95rem;
+    }
+
+    .stat-icon-wrapper {
+        width: 44px;
+        height: 44px;
+        font-size: 1.2rem;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Reduced Motion Preferences (Accessibility)
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+    *, ::before, ::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    .glow-orb {
+        display: none !important;
+    }
+
+    .wheel {
+        animation: none !important;
+    }
+}
