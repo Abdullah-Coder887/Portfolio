@@ -13,7 +13,7 @@ const PROJECTS_DATA = [
         fullDesc: "A centralized digital management platform developed to organize welfare operations, finance, projects, beneficiaries, and reporting. Brings multiple organizational workflows into one structured management platform.",
         technologies: ["Laravel", "PHP", "MySQL", "JavaScript", "Bootstrap 5", "HTML5/CSS3"],
         icon: "fa-solid fa-hand-holding-heart",
-        cover: "assets/images/projects/ausia-welfare/finance-dashboard.png",
+        cover: "assets/images/projects/ausia-welfare/finance-dashboard.webp",
         liveUrl: "",
         githubUrl: "",
         features: [
@@ -25,27 +25,27 @@ const PROJECTS_DATA = [
         ],
         screenshots: [
             {
-                image: "assets/images/projects/ausia-welfare/finance-dashboard.png",
+                image: "assets/images/projects/ausia-welfare/finance-dashboard.webp",
                 title: "Finance Dashboard",
                 description: "Centralized financial overview for monitoring organizational income, expenses and current financial position."
             },
             {
-                image: "assets/images/projects/ausia-welfare/donations.png",
+                image: "assets/images/projects/ausia-welfare/donations.webp",
                 title: "Donation Management",
                 description: "Donation management for recording and monitoring contributions and donor-related financial information."
             },
             {
-                image: "assets/images/projects/ausia-welfare/income.png",
+                image: "assets/images/projects/ausia-welfare/income.webp",
                 title: "Income Management",
                 description: "Income management for recording and tracking organizational financial inflows."
             },
             {
-                image: "assets/images/projects/ausia-welfare/expenses.png",
+                image: "assets/images/projects/ausia-welfare/expenses.webp",
                 title: "Expense Management",
                 description: "Expense management for recording and monitoring organizational expenditures."
             },
             {
-                image: "assets/images/projects/ausia-welfare/beneficiaries.png",
+                image: "assets/images/projects/ausia-welfare/beneficiaries.webp",
                 title: "Beneficiaries Management",
                 description: "Centralized beneficiary management for organizing and tracking welfare support records."
             }
@@ -61,7 +61,7 @@ const PROJECTS_DATA = [
         fullDesc: "Food Ordering & Restaurant Management System is a modern web-based platform designed to simplify the restaurant ordering experience. Customers can explore the menu, view food details, add items to their cart, complete checkout and place orders through a responsive interface, while the management side provides tools for handling menu items and orders.",
         technologies: ["React", "PHP", "MySQL", "JavaScript", "HTML5", "CSS3", "Bootstrap"],
         icon: "fa-solid fa-utensils",
-        cover: "assets/images/projects/food-ordering/food-home.png",
+        cover: "assets/images/projects/food-ordering/food-home.webp",
         liveUrl: "",
         githubUrl: "",
         features: [
@@ -75,37 +75,37 @@ const PROJECTS_DATA = [
         ],
         screenshots: [
             {
-                image: "assets/images/projects/food-ordering/food-home.png",
+                image: "assets/images/projects/food-ordering/food-home.webp",
                 title: "Restaurant Homepage",
                 description: "Interactive restaurant homepage showing menu offerings and food discovery."
             },
             {
-                image: "assets/images/projects/food-ordering/food-menu.png",
+                image: "assets/images/projects/food-ordering/food-menu.webp",
                 title: "Food Menu & Ordering Interface",
                 description: "Menu categories, food cards, prices, and instant ordering options."
             },
             {
-                image: "assets/images/projects/food-ordering/food-details.png",
+                image: "assets/images/projects/food-ordering/food-details.webp",
                 title: "Food Details & Checkout",
                 description: "Detailed food information, quantity selection, cart, and checkout flow."
             },
             {
-                image: "assets/images/projects/food-ordering/food-admin-dashboard.png",
+                image: "assets/images/projects/food-ordering/food-admin-dashboard.webp",
                 title: "Restaurant Admin Dashboard",
                 description: "Centralized restaurant management metrics, order totals, and performance KPIs."
             },
             {
-                image: "assets/images/projects/food-ordering/food-orders.png",
+                image: "assets/images/projects/food-ordering/food-orders.webp",
                 title: "Order Management",
                 description: "Restaurant admin order fulfillment, status tracking, and kitchen logs."
             },
             {
-                image: "assets/images/projects/food-ordering/food-customers.png",
+                image: "assets/images/projects/food-ordering/food-customers.webp",
                 title: "Customer Records",
                 description: "Customer database management and order history records."
             },
             {
-                image: "assets/images/projects/food-ordering/food-menu-management.png",
+                image: "assets/images/projects/food-ordering/food-menu-management.webp",
                 title: "Menu Item Management",
                 description: "Admin product catalog control for updating dishes, prices, and availability."
             }
@@ -120,7 +120,7 @@ const PROJECTS_DATA = [
         fullDesc: "A specialized, production-grade healthcare web application engineered to digitize dispensary operations. Features patient registration, clinical visit tracking, medical purchasing, inventory stock management, and operational reporting.",
         technologies: ["Laravel", "PHP", "MySQL", "Blade", "JavaScript", "Bootstrap 5"],
         icon: "fa-solid fa-clinic-medical",
-        cover: "assets/images/projects/dispensary/dashboard.png",
+        cover: "assets/images/projects/dispensary/dashboard.webp",
         liveUrl: "",
         githubUrl: "",
         features: [
@@ -132,27 +132,27 @@ const PROJECTS_DATA = [
         ],
         screenshots: [
             {
-                image: "assets/images/projects/dispensary/dashboard.png",
+                image: "assets/images/projects/dispensary/dashboard.webp",
                 title: "Dispensary Dashboard",
                 description: "Centralized overview of patients, medicines, stock and daily operations."
             },
             {
-                image: "assets/images/projects/dispensary/patient-registration.png",
+                image: "assets/images/projects/dispensary/patient-registration.webp",
                 title: "Patient Registration",
                 description: "Digital patient registration and medical information management."
             },
             {
-                image: "assets/images/projects/dispensary/patient-details.png",
+                image: "assets/images/projects/dispensary/patient-details.webp",
                 title: "Patient Records & Details",
                 description: "Centralized patient directory and medical history records."
             },
             {
-                image: "assets/images/projects/dispensary/medicine-inventory.png",
+                image: "assets/images/projects/dispensary/medicine-inventory.webp",
                 title: "Medicine Inventory",
                 description: "Medicine purchasing, stock quantities, and inventory logs."
             },
             {
-                image: "assets/images/projects/dispensary/daily-patients.png",
+                image: "assets/images/projects/dispensary/daily-patients.webp",
                 title: "Daily Patient Records",
                 description: "Daily patient visit logs, operational tracking, and consultation details."
             }
@@ -167,7 +167,7 @@ const PROJECTS_DATA = [
         fullDesc: "A modern Quran learning platform designed to present Quran courses, learning programs and institute information through a clean, engaging and responsive web experience.",
         technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "JavaScript", "Bootstrap"],
         icon: "fa-solid fa-book-quran",
-        cover: "assets/images/projects/quran-institute/homepage.png",
+        cover: "assets/images/projects/quran-institute/homepage.webp",
         liveUrl: "",
         githubUrl: "",
         features: [
@@ -179,27 +179,27 @@ const PROJECTS_DATA = [
         ],
         screenshots: [
             {
-                image: "assets/images/projects/quran-institute/homepage.png",
+                image: "assets/images/projects/quran-institute/homepage.webp",
                 title: "Homepage & Hero Presentation",
                 description: "Modern Quran learning platform homepage and hero presentation."
             },
             {
-                image: "assets/images/projects/quran-institute/courses.png",
+                image: "assets/images/projects/quran-institute/courses.webp",
                 title: "Course Catalog & Programs",
                 description: "Course directory displaying Tajweed, recitation, and Islamic study programs."
             },
             {
-                image: "assets/images/projects/quran-institute/about.png",
+                image: "assets/images/projects/quran-institute/about.webp",
                 title: "Institute Features & Methodology",
                 description: "Educational approach, features, and institute overview."
             },
             {
-                image: "assets/images/projects/quran-institute/contact.png",
+                image: "assets/images/projects/quran-institute/contact.webp",
                 title: "Student Enrollment & Contact",
                 description: "Interactive student enrollment form and contact details."
             },
             {
-                image: "assets/images/projects/quran-institute/admin-dashboard.png",
+                image: "assets/images/projects/quran-institute/admin-dashboard.webp",
                 title: "Admin Management Portal",
                 description: "Administrative portal for managing course content and student inquiries."
             }

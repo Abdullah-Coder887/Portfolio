@@ -24,14 +24,28 @@ function bindConfigData() {
     }
 }
 
-// 1. Preloader Handler (< 1.2s max fade)
+// 1. Fast Preloader Handler (Instant dismissal on load, no blocking delay)
 function initPreloader() {
     const preloader = document.getElementById("preloader");
     if (!preloader) return;
 
-    setTimeout(() => {
+    const dismissPreloader = () => {
+        if (preloader.classList.contains("fade-out")) return;
         preloader.classList.add("fade-out");
-    }, 1000);
+        setTimeout(() => {
+            preloader.style.display = "none";
+        }, 300);
+    };
+
+    if (document.readyState === "complete") {
+        setTimeout(dismissPreloader, 100);
+    } else {
+        window.addEventListener("load", () => {
+            setTimeout(dismissPreloader, 150);
+        });
+        // Safeguard timeout (max 600ms) so slow network doesn't trap the user
+        setTimeout(dismissPreloader, 600);
+    }
 }
 
 // 2. Navbar Scroll Styling

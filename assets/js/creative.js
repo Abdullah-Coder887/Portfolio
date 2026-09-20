@@ -11,7 +11,7 @@ const GRAPHIC_DESIGN_DATA = [
         category: "Branding",
         categorySlug: "branding",
         icon: "fa-solid fa-wand-magic-sparkles",
-        image: "assets/images/creative/ai-creative-1.png",
+        image: "assets/images/creative/ai-creative-1.webp",
         desc: "AI-assisted visual art and futuristic concept design with high-fidelity lighting and composition."
     },
     {
@@ -20,7 +20,7 @@ const GRAPHIC_DESIGN_DATA = [
         category: "Social Media",
         categorySlug: "social-media",
         icon: "fa-solid fa-palette",
-        image: "assets/images/creative/ai-creative-2.png",
+        image: "assets/images/creative/ai-creative-2.webp",
         desc: "Generative AI visual media artwork optimized for high-impact social campaigns."
     },
     {
@@ -29,7 +29,7 @@ const GRAPHIC_DESIGN_DATA = [
         category: "Branding",
         categorySlug: "branding",
         icon: "fa-solid fa-robot",
-        image: "assets/images/creative/ai-creative-3.png",
+        image: "assets/images/creative/ai-creative-3.webp",
         desc: "AI-generated digital artwork and creative concept graphics for modern media projects."
     },
     {
@@ -38,7 +38,7 @@ const GRAPHIC_DESIGN_DATA = [
         category: "Social Media",
         categorySlug: "social-media",
         icon: "fa-solid fa-utensils",
-        image: "assets/images/creative/chicken-popcorn.png",
+        image: "assets/images/creative/chicken-popcorn.webp",
         desc: "High-converting food promotional social media ad design featuring vibrant typography, price highlights, and appetite appeal."
     },
     {
@@ -47,7 +47,7 @@ const GRAPHIC_DESIGN_DATA = [
         category: "Social Media",
         categorySlug: "social-media",
         icon: "fa-solid fa-pepper-hot",
-        image: "assets/images/creative/hotshot.png",
+        image: "assets/images/creative/hotshot.webp",
         desc: "Eye-catching social media campaign graphics for food product promotion with bold visual hierarchy and call-to-action branding."
     },
     {
@@ -56,7 +56,7 @@ const GRAPHIC_DESIGN_DATA = [
         category: "Posters",
         categorySlug: "posters",
         icon: "fa-solid fa-file-image",
-        image: "assets/images/creative/p1.png",
+        image: "assets/images/creative/p1.webp",
         desc: "High-resolution promotional event poster with bold typography and creative layout composition."
     },
     {
@@ -65,7 +65,7 @@ const GRAPHIC_DESIGN_DATA = [
         category: "Posters",
         categorySlug: "posters",
         icon: "fa-solid fa-image",
-        image: "assets/images/creative/p2.png",
+        image: "assets/images/creative/p2.webp",
         desc: "Creative marketing flyer design crafted for corporate and organizational events."
     },
     {
@@ -74,7 +74,7 @@ const GRAPHIC_DESIGN_DATA = [
         category: "Social Media",
         categorySlug: "social-media",
         icon: "fa-solid fa-burger",
-        image: "assets/images/creative/f2.png",
+        image: "assets/images/creative/f2.webp",
         desc: "Vibrant food social media campaign post designed for high online engagement."
     },
     {
@@ -83,7 +83,7 @@ const GRAPHIC_DESIGN_DATA = [
         category: "Social Media",
         categorySlug: "social-media",
         icon: "fa-solid fa-pizza-slice",
-        image: "assets/images/creative/f3.png",
+        image: "assets/images/creative/f3.webp",
         desc: "Appetizing food marketing banner graphic optimized for Instagram and Facebook ads."
     },
     {
@@ -92,7 +92,7 @@ const GRAPHIC_DESIGN_DATA = [
         category: "Branding",
         categorySlug: "branding",
         icon: "fa-solid fa-vector-square",
-        image: "assets/images/creative/stripes.png",
+        image: "assets/images/creative/stripes.webp",
         desc: "Creative visual brand asset with modern geometric branding elements."
     },
     {
@@ -101,7 +101,7 @@ const GRAPHIC_DESIGN_DATA = [
         category: "Branding",
         categorySlug: "branding",
         icon: "fa-solid fa-flag",
-        image: "assets/images/creative/welcome.jpeg",
+        image: "assets/images/creative/Welcome.webp",
         desc: "Professional welcoming graphic banner designed for corporate announcements and onboarding."
     }
 ];

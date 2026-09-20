@@ -716,9 +716,14 @@ class Skills3DUniverseEngine {
 let skillsUniverseInstance = null;
 let skillsAnimated = false;
 
+function ensureSkillsUniverse() {
+    if (!skillsUniverseInstance && typeof Skills3DUniverseEngine !== "undefined") {
+        skillsUniverseInstance = new Skills3DUniverseEngine();
+    }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     updateDynamicSkillCounter();
-    skillsUniverseInstance = new Skills3DUniverseEngine();
     renderSkillProgressList("dev");
     setupSkillTabs();
     setupSkillSearch();
@@ -838,10 +843,24 @@ function animateSkillProgressBars() {
     });
 }
 
-// IntersectionObserver for viewport entrance trigger
+// IntersectionObserver for viewport entrance trigger & lazy 3D loading
 function initSkillsObserver() {
     const section = document.getElementById("skills");
-    if (!section) return;
+    if (!section) {
+        ensureSkillsUniverse();
+        return;
+    }
+
+    // Lazy initialize 3D WebGL universe when user scrolls within 350px of skills section
+    const universeObserver = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                ensureSkillsUniverse();
+                obs.unobserve(entry.target);
+            }
+        });
+    }, { rootMargin: "350px" });
+    universeObserver.observe(section);
 
     const observer = new IntersectionObserver((entries, obs) => {
         entries.forEach(entry => {

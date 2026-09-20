@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+*.tmp
+*.tmp.*
+*.log
+.vscode/
+.idea/
+not add1.jpeg
+not add2.jpeg
+
